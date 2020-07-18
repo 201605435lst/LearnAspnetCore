@@ -1,0 +1,5 @@
+G:\视频学习\study\LearnASP\StudentMangement.Dal\StudentMangement.Dal\bin\Debug\netstandard2.0\StudentMangement.Dal.deps.json
+G:\视频学习\study\LearnASP\StudentMangement.Dal\StudentMangement.Dal\bin\Debug\netstandard2.0\StudentMangement.Dal.dll
+G:\视频学习\study\LearnASP\StudentMangement.Dal\StudentMangement.Dal\obj\Debug\netstandard2.0\StudentMangement.Dal.csprojAssemblyReference.cache
+G:\视频学习\study\LearnASP\StudentMangement.Dal\StudentMangement.Dal\obj\Debug\netstandard2.0\StudentMangement.Dal.AssemblyInfoInputs.cache
+G:\视频学习\study\LearnASP\StudentMangement.Dal\StudentMangement.Dal\obj\Debug\netstandard2.0\StudentMangement.Dal.AssemblyInfo.cs
