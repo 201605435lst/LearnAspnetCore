@@ -30,6 +30,17 @@ namespace StudentManagement5.Moudles
             _studentsList.Add(student);
             return student;
         }
+
+        public Student Delete(int id)
+        {
+            Student student = _studentsList.FirstOrDefault(s=>s.Id==id);
+            if(student != null)
+            {
+               _studentsList.Remove(student);
+            }
+            return student;
+        }
+
         public IEnumerable<Student> GetAllStudents()
         {
            return _studentsList;
@@ -38,6 +49,19 @@ namespace StudentManagement5.Moudles
         public Student GetStudent(int id)
         {
            return  _studentsList.FirstOrDefault(a => a.Id == id);
+        }
+
+        public Student Update(Student updateStudent)
+        {
+            Student student = _studentsList.FirstOrDefault(s => s.Id == updateStudent.Id);
+            if(student != null)
+            {
+                student.Email = updateStudent.Email;
+                student.ClassName = updateStudent.ClassName;
+                student.Name = updateStudent.Name;
+
+            }
+            return student;
         }
     }
 }

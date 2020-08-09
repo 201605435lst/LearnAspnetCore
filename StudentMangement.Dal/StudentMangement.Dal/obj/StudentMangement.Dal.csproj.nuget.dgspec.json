@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\视频学习\\study\\LearnASP\\StudentMangement.Dal\\StudentMangement.Dal\\StudentMangement.Dal.csproj": {}
+    "G:\\Study\\LearnAspnetCore\\StudentMangement.Dal\\StudentMangement.Dal\\StudentMangement.Dal.csproj": {}
   },
   "projects": {
-    "G:\\视频学习\\study\\LearnASP\\StudentMangement.Dal\\StudentMangement.Dal\\StudentMangement.Dal.csproj": {
+    "G:\\Study\\LearnAspnetCore\\StudentMangement.Dal\\StudentMangement.Dal\\StudentMangement.Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\视频学习\\study\\LearnASP\\StudentMangement.Dal\\StudentMangement.Dal\\StudentMangement.Dal.csproj",
+        "projectUniqueName": "G:\\Study\\LearnAspnetCore\\StudentMangement.Dal\\StudentMangement.Dal\\StudentMangement.Dal.csproj",
         "projectName": "StudentMangement.Dal",
-        "projectPath": "G:\\视频学习\\study\\LearnASP\\StudentMangement.Dal\\StudentMangement.Dal\\StudentMangement.Dal.csproj",
-        "packagesPath": "C:\\Users\\liushengtao\\.nuget\\packages\\",
-        "outputPath": "G:\\视频学习\\study\\LearnASP\\StudentMangement.Dal\\StudentMangement.Dal\\obj\\",
+        "projectPath": "G:\\Study\\LearnAspnetCore\\StudentMangement.Dal\\StudentMangement.Dal\\StudentMangement.Dal.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "G:\\Study\\LearnAspnetCore\\StudentMangement.Dal\\StudentMangement.Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\liushengtao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

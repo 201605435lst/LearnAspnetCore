@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 using StudentManagement5.Moudles;
 
 namespace StudentManagement5
@@ -26,13 +28,17 @@ namespace StudentManagement5
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddDbContextPool<AppDbContext>(
+                options => options.UseSqlServer(_configuration.GetConnectionString("StudentDBConnection"))
+                );
+            
             //Mvc Core  只包含了核心的mvc功能
             //mvc   包含了依赖于mvc core 以及相关的第三方常用的服务和方法
             services.AddMvc();
 
 
-            services.AddSingleton<IStudentRepository, MockStudentRepository>();
+            //services.AddSingleton<IStudentRepository, MockStudentRepository>();
+            services.AddScoped<IStudentRepository, SQLStudentRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

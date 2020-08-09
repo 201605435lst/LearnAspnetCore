@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\视频学习\\study\\LearnASP\\StudentManagement5\\StudentManagement5\\StudentManagement5.csproj": {}
+    "G:\\Study\\LearnAspnetCore\\StudentManagement5\\StudentManagement5\\StudentManagement5.csproj": {}
   },
   "projects": {
-    "G:\\视频学习\\study\\LearnASP\\StudentManagement5\\StudentManagement5\\StudentManagement5.csproj": {
+    "G:\\Study\\LearnAspnetCore\\StudentManagement5\\StudentManagement5\\StudentManagement5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\视频学习\\study\\LearnASP\\StudentManagement5\\StudentManagement5\\StudentManagement5.csproj",
+        "projectUniqueName": "G:\\Study\\LearnAspnetCore\\StudentManagement5\\StudentManagement5\\StudentManagement5.csproj",
         "projectName": "StudentManagement5",
-        "projectPath": "G:\\视频学习\\study\\LearnASP\\StudentManagement5\\StudentManagement5\\StudentManagement5.csproj",
-        "packagesPath": "C:\\Users\\liushengtao\\.nuget\\packages\\",
-        "outputPath": "G:\\视频学习\\study\\LearnASP\\StudentManagement5\\StudentManagement5\\obj\\",
+        "projectPath": "G:\\Study\\LearnAspnetCore\\StudentManagement5\\StudentManagement5\\StudentManagement5.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "G:\\Study\\LearnAspnetCore\\StudentManagement5\\StudentManagement5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\liushengtao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
